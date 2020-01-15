@@ -1,0 +1,164 @@
+
+*{
+	font-family: 微軟正黑體;
+	margin-top:-2.5vmin;
+}
+
+@media only screen and (min-width: 992px){
+	.bg_image{
+		background-image:url(/assets/images/icon/個資.jpg);
+		height:100vh;
+		width:80vw;
+		background-size:cover;
+		margin-left:10vw;
+	}
+	
+	.user_step{
+		margin:16vmin 0 0 30vmin;
+	}
+
+	#event_name{ 
+		margin:5vmin 0 0 30vmin;
+		padding-top:5vmin;
+		color:white;
+		font-weight:bold;
+		font-size:4vh;
+	}
+	
+	.first_img > a > img { width:16vmin;} 
+
+	.sex_img > a > img { width:20vmin; } 
+
+	.step_name{ font-weight:bold; font-size:5vh; padding-top:1vmin;}
+
+	.Option_first_image{ margin-top:10vh;}
+	
+	.Option_margin_top{ margin-top:8vh; }
+	.Option_margin_top10{ margin-top:10vh; }
+	.Option_margin_top5{ margin-top:5vh; }
+	
+	.Option_line{ margin-top:5vh; }
+	.Option_line > input,h4 { width:18vw; }
+	
+	.Option_margin_top > a > img { width:18vmin }
+	
+	#go_index{ 
+		position: absolute;
+		top:85vmin;
+		right:45vmin;
+	}
+	
+}
+
+
+@media only screen and (min-width: 751px) and (max-width: 991px){
+	.bg_image{
+		background-image:url(/assets/images/icon/手機-個資.jpg);
+		height:100vh;
+		width:80vw;
+		margin:2.4vh auto;
+		background-size:cover;
+	}
+	
+	.user_step{
+		margin:7vmin 0 0 12vmin;
+	}
+	
+	#event_name{ 
+		padding:8vmin 0 0 8vmin;
+		color:white;
+		font-weight:bold;
+		font-size:3.5vh;
+	}
+	
+	.first_img > a > img { width:22vmin; } 
+	.sex_img > a > img { width:22vmin; } 
+	.else_img > a > img { width:20vmin; margin-bottom:3vh;} 
+	
+	.step_name{ font-weight:bold; font-size:5vh; padding-top:1vmin;}
+
+	.Option_first_image{ margin-top:10vh;}
+	
+	.Option_margin_top{ margin-top:8vh; }
+	
+	
+	.Option_line{ margin-top:3vh; }
+	.Option_line > input,h4 { width:45vw; }
+	
+	.Option_margin_top10{ margin-top:10vh; }
+
+	.margin_left_5{ margin-left:-5vw;}
+	
+	#go_index{ 
+		position: absolute;
+		top:110vmin;
+		left:30vmin;
+	}
+}
+
+@media only screen and (max-width: 750px){
+	
+	.bg_image{
+		background-image:url(/assets/images/icon/手機-個資.jpg);
+		margin:0 auto;
+		background-size:cover;
+	}
+	
+	.user_step{
+		padding-left:15vw;
+		padding-top:6vh;
+	}
+	
+	#event_name{ 
+		margin:1vmin 0 0 8vmin;
+		padding-top:5vmin;
+		color:white;
+		font-weight:bold;
+		font-size:4vh;
+	}
+	
+	h2 {font-size:4vh;}
+	
+	
+	.first_img > a > img { width:20vmin; margin-top:8vh;} 
+	.sex_img > a > img { width:30vmin; } 
+	.else_img > a > img { width:25%;} 
+	.else_img { margin-left:-8vw;} 
+	
+	.step_name{ font-weight:bold; font-size:3.5vh;}
+
+	.Option_first_image{ padding-bottom:37vh;}
+	
+	.Option_margin_top{ margin-top:4vh; }
+	.Option_margin_top10{ margin-top:7vh; } /* 偷吃步*/
+	
+	.Option_line{ margin-top:3vh; }
+	.Option_line > input,h4 { width:65vw; }
+	
+	.Option_margin_top > a > img { margin:0 0 3vh 3vw; }
+	
+	#go_index{ 
+		position:absolute;
+		top:128vmin;
+		left:25vmin;
+	}
+	
+	.btn_up{ margin-bottom:1vmin; }
+}
+
+span#title{
+	color: #081942;
+	font-weight: bold;
+	font-size: 28px;
+
+}
+
+input,select{
+	width: 200px;
+	height: 40px;
+	border: solid 2px #1C5AA5;
+	border-radius: 5px;
+	font-size: 15px;
+	padding: 0 10px;
+	background-color: transparent;
+}

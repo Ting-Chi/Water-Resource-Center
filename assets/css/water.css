@@ -1,0 +1,27 @@
+
+
+*{
+	font-family: Microsoft JhengHei;
+}
+
+.open{
+    border-color: #CC3F3D;
+}
+
+#login{
+	background-image: url("/assets/images/login.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 650px;
+}
+
+.table > thead > tr{
+	background-color: #DCF2FF;
+}
+.sidebar-wrapper{
+	background-color: #D4EAF7;
+}
+
+.bar-chart{
+	height: 300px;
+}

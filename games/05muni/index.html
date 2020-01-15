@@ -1,0 +1,22 @@
+<!doctype html>
+<html style="height: 100%;">
+<head>
+	<meta charset="utf-8">
+	<style>
+		#gameDiv{  
+		　Height:100%;  
+		}
+	</style>
+</head>
+<body style="height: 100%;">
+	<div id="gameDiv" style="height: 100%;">
+		<script src="../phaser/phaser.min.js"></script>
+		<script src="js/main.js"></script>
+
+		<form name="scoreForm" method="post" action="../play_res.php">
+			<input id="score" name="score" type="text"  style="display:none;" required>
+			<input id="gameType" name="gameType" type="text"  style="display:none;" required>
+		</form>
+	</div>
+</body>
+</html>

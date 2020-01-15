@@ -1,0 +1,235 @@
+body{
+	width: 100%;
+	margin: 0px ;
+	font-family:微軟正黑體;
+	/*background-color:#F6D59D;*/
+}
+
+#title { font-size:7vh; padding: 5% 5%;}
+
+#quiz{
+	background-image:url(/assets/images/test/黑板.png);
+	width:69vw;
+	height:78vh;
+	background-size:cover;
+
+
+}
+
+.m_quiz{
+	background-image:url(/assets/images/test/手機-黑板.jpg);
+	width:100%;
+	height:100%;
+	background-size:cover;
+	padding:7vmin 10vmin;
+
+}
+
+#quiz_no { font-size:7vh; color:#7BBAE1; }
+
+#quiz_content { font-size:4vmin; color:#FFF; }
+#m_quiz_content { font-size:6vmin; color:#FFF; }
+
+#quiz_title { margin: 3% 4% 0 4%;}
+
+.quiz_img { margin:3vmin 0 0 10vmin;}
+
+.quiz_option { margin: 1vmin 5vmin; }
+
+.word_white { color:#fff; font-size:3.5vmin; }
+.m_word_white { color:#fff; font-size:5vmin; margin-bottom:2.5vmin;}
+
+ a{ text-decoration:none; color:#fff;}
+ a:hover { color:#fff; }
+ 
+ .uesrAns { margin: 1vmin 1vmin; }
+ 
+ .uesrAns > a { margin-left:35vmin;}
+ .m_uesrAns > a { margin-left:3.5vmin;}
+ 
+ #before{
+	padding:8px;
+	border:none;
+	background-color:#444956;
+	width:80px;
+	height:50px;
+	font-size:15pt;
+	margin-top:20vh;
+ }
+ 
+ #m_before{
+	
+	margin-top:8vmin;
+	padding:2vmin;
+	border:none;
+	background-color:#444956;
+	width:20vw;
+	height:7vh;
+	font-size:5vmin;
+ }
+ 
+ .next_btn{
+ 	padding: 10px 10px 10px 20px;
+ 	margin: 3vh 30px 0 0; 
+	background-color:#00cd52;
+	color:#ffffff;
+	font-size:4vmin;
+	text-align: center;
+	border-radius: 10px;
+ }
+ 
+ .giveup { 
+	position: absolute; 
+	color:#fff; 
+	padding:5px;
+	border:none;
+	background-color:#444956;
+ }
+ 
+ #bg_img{
+	background-image:url(/assets/images/test/水寶黑板.jpg);
+	width:100vw;
+	height:100vh;
+	background-size:cover;
+	
+ }
+ 
+ 
+ #desk{
+	background-image:url(/assets/images/test/桌子.png);
+	margin-top:2vh;
+	width:40vw;
+	height:10vh;
+	background-size:cover;
+ }
+ 
+ #m_desk{
+	background-image:url(/assets/images/test/桌子.png);
+	position: absolute;
+	top:5vmin;
+	right:15vmin;
+	background-size:cover;
+ }
+ 
+ .teacher{
+	width:23.5vw;
+	height:64.5vh;
+	position: absolute;
+	bottom: 0px;
+	right: 10.5vw;
+	background-size:cover;
+ }
+ 
+ 
+ .end_btn{
+		position: absolute;
+		padding:0px;
+		background-color: #00cd52;
+		color:#ffffff;
+		font-size:4vmin;
+		border:none;
+		width:45vmin;
+		height:6vmin;
+		border-radius: 10px;
+}
+  
+/* 以下 quiz_res */
+
+@media only screen and (min-width: 992px){
+	.judge { position: absolute; top:45vh; right:78vmin; font-size:5vmin; color:#fff; }
+	.ans_info { position: absolute; top:30vh; right:80vmin; font-size:4.5vmin; color:#fff; display:none;}
+	.giveup {  /* 電腦版額外套用 */
+		top:30vh; 
+		right:60vmin; 
+		font-size:3vmin; 
+		width:80px;
+		height:50px;
+	}
+	.end_btn{  /* 電腦版額外套用 */
+		bottom:37vh;
+		padding:3px;
+		right:38vw;
+		width:12vw;
+		height:6vh;
+	 }
+	.total_count { width:100vw; height:100vh; margin-left:10vmin;}
+	.good { position: absolute; bottom:25vh; right:130vmin; }
+	
+	.Processing {  color:#fff; font-size:4vw;}
+
+}
+
+@media only screen and (min-width: 751px) and (max-width: 991px){
+	.judge { position: absolute; top:45vh; right:25vmin; font-size:5vmin; color:#fff; }
+	.ans_info { position: absolute; top:30vh; right:30vmin; font-size:4.5vmin; color:#fff; display:none;}
+	.giveup { 
+		position: absolute; 
+		top:30vh; 
+		right:50vmin; 
+		font-size:2.5vmin; 
+		color:#fff; 
+		padding:8px;
+		border:none;
+		background-color:#444956;
+	}
+	
+	.end_btn{  /* 平版額外套用 */
+		bottom:40vh; 
+		right:38vw;
+		width:20vw;
+		height:5vh;
+	}
+	 
+	.total_count { width:95vw; height:95vh; margin-left:10vh;}
+	.good { position: absolute; bottom:15vh; right:10vmin; }
+	
+	.Processing {  color:#fff; font-size:8vw;}
+	
+	.m_teacher{
+	width:30vmin;
+	position: absolute;
+	top:85vmin;
+	right: -3vmin;
+	background-size:cover;
+ }
+
+}
+
+@media only screen and (max-width: 750px){
+	.judge { position: absolute; top:35vh; right:15vmin; font-size:8vmin; color:#fff; }
+	.ans_info { position: absolute; top:20vh; right:20vmin; font-size:7vmin; color:#fff; display:none;}
+	.giveup { 
+		position: absolute; 
+		top:30vh; 
+		right:50vmin; 
+		font-size:2.5vmin; 
+		color:#fff; 
+		padding:8px;
+		border:none;
+		background-color:#444956;
+		width:60px;
+		height:50px;
+	}
+	
+	.end_btn{  /* 手機版額外套用 */
+		padding:1vmin;
+		bottom:40vh; 
+		right:27vw;
+		width:40vw;
+		height:9vh;
+		font-size:8vmin;
+	 }
+	 
+	.total_count { width:95vw; height:95vh; margin-left:-3.5vh;}
+	.good { position: absolute; bottom:15vh; right:10vmin; }
+	
+	.Processing {  color:#fff; font-size:8vw;}
+	
+	.m_teacher{
+	width:30vmin;
+	position: absolute;
+	top:120vmin;
+	right: -3vmin;
+	background-size:cover;
+ }
+}

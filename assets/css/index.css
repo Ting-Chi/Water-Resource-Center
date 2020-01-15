@@ -1,0 +1,129 @@
+.wrapper{
+	overflow-x: hidden;
+}
+
+#playground{
+    background: url(../images/index/sky.gif) no-repeat center center;
+    background-size: 100% 100%;
+	padding: 15em 0 5em 0;
+}
+
+#phone{
+	display: none;
+}
+
+#play{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#play img{
+	width: 100%;
+}
+
+#ticketBg{
+	background-color: #f4f29d;
+}
+
+#ticketBg img{
+	width: 100%;
+}
+
+#quiz{
+	background: #98eada url(../images/index/quiz.png) no-repeat center center;
+	background-size: cover 100%;
+	padding: 16em;
+}
+
+#aa{
+	height: 100%;
+	background-color: #A0CE7D;
+}
+
+#new{
+	padding: 19em 10em;
+	height: 100%;
+	background: #FCD26B url(../images/index/9.png) no-repeat center center;
+	background-size: 80% 90%;
+}
+
+
+#media{
+	padding: 10em 10em;
+	background: #A0CE7D url(../images/index/10.png) no-repeat center center;
+	background-size: 75% 80%;
+	/*background-color: #68B3C8;*/
+}
+
+video{
+	width: 100%;
+	padding-top: 11em ;
+}
+
+footer{
+	background: linear-gradient(#29C9E2,#0098FF);
+	width: 100vw;
+	padding: 2em 0;
+}
+
+@media (max-width: 1600px){
+	#media{
+		padding: 6em 8em 8em 8em;
+	}
+}
+
+@media (max-width: 1300px){
+	#media{
+		padding: 3em 7em 7em 7em;
+	}
+}
+
+@media (max-width: 1200px){
+	#new{
+		padding: 18.2em 12em;
+	}
+
+}
+
+@media (max-width: 1000px){
+	#ticketBg{
+		background-size: 100% 100%;
+	}
+
+	#new{
+		padding: 18.2em 10em;
+	}
+}
+
+@media (max-width: 650px){
+	#play{
+		width: 100%;
+	}
+}
+
+@media (max-width: 550px){
+	.wrapper{
+		height: 100%;
+		overflow-x: scroll;
+		overflow-y: hidden;
+	}
+
+	#phone{
+		display: block;
+	}
+
+	#phone img{
+		height: 100vh;
+	}
+
+	#playground,#play,#quiz,#ticketBg,#aa,footer{
+		display: none;
+	}
+}
+
+@media (max-width: 500px){
+	#playground{
+		/*margin: 0 auto;
+	    background-size: 100% 100%;*/
+	}
+}

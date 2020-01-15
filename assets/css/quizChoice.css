@@ -1,0 +1,100 @@
+
+*{
+	font-family: 微軟正黑體;
+}
+
+body{
+	margin: 0 auto;
+	background-color:#5e0e11;
+}
+
+#sell_machine{ position:relative;}
+
+
+@media only screen and (min-width: 992px){
+	
+	#sell_machine > img { height:100vh;}
+	#sell_machine{ padding:10vh 0 0 12vw;}
+
+	.grade_img { width:165px ; height:194px; }
+	.grade_na { font-weight:bold; position:absolute; top:9vh; left:3vw; font-size:2vw; color:#563B78; }
+	
+	#text_lv{ 
+		position:absolute;
+		color:#222;
+		font-size:3vmin;
+		top:90vh;
+		right:27.5vw;
+	}
+	
+	#grade_choice1{ position:absolute; top:28vmin; left:27vmin;}
+	#grade_choice2{ position:absolute; top:51vmin; left:27vmin;}
+	
+	#go_index{ 
+		position: absolute;
+		top:105vmin;
+		right:55.5vmin;
+	}
+	
+	.grade_backup{ font-size:4vw;margin-left:3vw; }
+}
+
+@media screen and (min-width: 751px) and (max-width: 991px){
+	
+	#sell_machine > img { height:100%;}
+	#sell_machine{ margin:6.35vh 10vw 0 9vw;}
+
+	.grade_img { width:18vw; }
+	.grade_na { font-weight:bold; position:absolute; top:10vh; left:15vw; font-size:5vw; color:#563B78; }
+	
+	#text_lv{ 
+		position:absolute;
+		color:#222;
+		font-size:4vmin;
+		top:80%;
+		right:35%;
+	}
+	
+	#grade_choice1{ position:absolute; top:18vmin; left:5vmin; }
+	#grade_choice2{ position:absolute; top:43vmin; left:5vmin;}
+	
+	#go_index{ 
+		position: absolute;
+		top:110vmin;
+		right:45vmin;
+	}
+	
+	.grade_backup{ font-size:10vw;margin-left:3vw; }
+
+}
+
+@media only screen and (max-width: 750px){
+	
+	#sell_machine > img { height:100%;}
+	#sell_machine{ margin-top:4vh;}
+
+	.grade_img { width:25vw;}
+	.grade_na { font-weight:bold; position:absolute; top:15vh; left:15vw; font-size:10vw; color:#563B78; }
+	
+	#text_lv{ 
+		position:absolute;
+		color:#222;
+		font-size:5vmin;
+		top:80%;
+		right:33%;
+	}
+	
+	#grade_choice1{ position:absolute; top:28vmin; left:5vmin;}
+	#grade_choice2{ position:absolute; top:51vmin; left:5vmin;}
+	
+	#go_index{ 
+		position: absolute;
+		top:110vh;
+		right:50vmin;
+
+	}
+	
+	.grade_backup{ font-size:12vw;margin-left:3vw; }
+
+}
+

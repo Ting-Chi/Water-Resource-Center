@@ -1,0 +1,46 @@
+
+*{
+	font-family: 微軟正黑體;
+}
+
+@media only screen and (min-width: 992px){
+	
+	/* 排行榜 */
+	.bg_img{ padding-left:3vmin;}
+	.bg_img > img { height:100vh;}
+	.table_row{ position:absolute; top:42.6vh; left:45vw;font-size:3.5vmin;line-height:5.3vh;}
+	.again_img{ position:absolute; top:42vh; left:1vw;}
+	
+	/* 輸入成績 */
+	.yellow_form{ background-color:#f2e88f;padding:1%;margin:5% 36%;height:18vh;width:30vw;}
+	.submit_btn{ position:absolute; top:49vh; margin:0 22.4%; height:12vh; }
+	.rank_logo{ height:35vh;margin:0 38%; }
+}
+@media only screen and (min-width: 751px) and (max-width: 991px){ /* 平板 */
+	
+	.bg_img{ padding-left:10vw;}
+	.bg_img > img { height:100vh;}
+	.table_row{ position:absolute; top:43vh; left:30vw;font-size:3vmin;line-height:6vmin;}
+	.again_img{ position:absolute; top:42vh; left:1vw;}
+	
+	/* 輸入成績 */
+	.yellow_form{ background-color:#f2e88f; padding:1%;margin:5% 26%;height:30vh;width:50vw;}
+	.submit_btn{ position:absolute; top:56vh; margin:0 32%; height:12vh; }
+	.rank_logo{ height:35vh;padding:0 22%; }
+
+}
+@media only screen and (max-width: 750px){ /* 手機 */
+
+	.bg_img{ margin-left:1vmin;}
+	.bg_img > img { width:100vw;}
+	.table_row{ position:absolute; top:37vh; left:30vw; margin-left:-2vmin; font-size:5vmin;line-height:7.8vmin;}
+	.again_img{ position:absolute; top:35.5vh; left:2vw;}
+	.again_img > a > img { height:15vmin;}
+	
+	/* 輸入成績 */
+	.yellow_form{ background-color:#f2e88f; padding:5%;margin:5% 10%;height:40vh;width:80vw;}
+	.submit_btn{ position:absolute; height:12vh;}
+	.rank_logo{ height:35vh;margin:0 10%; }
+
+
+}

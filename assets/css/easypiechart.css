@@ -1,0 +1,42 @@
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#txt{
+  position: absolute;
+  display: inline-block;
+  font-size: 1.3em;
+  z-index: 3;
+  margin-top: 8em;
+  margin-left: -2.3em; 
+
+}
+
+.percent {
+  position: absolute;
+  display: inline-block;
+  line-height: 80px;
+  z-index: 2;
+  font-size: 2em;
+  margin-left: 1em; 
+  margin-top: 1.5em;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
